@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         tecmint focus mode
-// @version      0.1
+// @version      0.2
 // @description  Add a toggle switch for focus mode on tecmint.com. Focus mode gets rid of all distractions and applies a dark theme.
 // @author       makl11
 // @match        https://www.tecmint.com/*
@@ -13,7 +13,7 @@
 
 const toRemove = ["#nav-topbar", "#header .pad", "#footer", ".add-box", ".fixedBar", ".ads-inner-mobile",
                   ".after-post-box", ".post-tags", ".author-bio", ".sharrre-container", ".grid.one-fourth", ".post-nav",
-                  ".heading", ".related-posts", "#comments", ".comments", ".sidebar", ".hr"];
+                  ".heading", ".related-posts", "#comments", ".comments", ".sidebar", ".hr", "#quickiebarpro"];
 
 const darkmodeStyle =
 `<style id="tfmDark">
