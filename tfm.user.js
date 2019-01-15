@@ -94,7 +94,7 @@ const switchHTML = `<style>
     container.addEventListener("change", (e) => printView(e.srcElement.checked));
     document.body.appendChild(container);
     if (GM_getValue("hide")) {
-        printView(true);
+        setTimeout(printView(true), 1000);
     }
 })();
 
