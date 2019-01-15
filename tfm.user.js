@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         tecmint focus mode
-// @version      0.2
+// @version      0.3
 // @description  Add a toggle switch for focus mode on tecmint.com. Focus mode gets rid of all distractions and applies a dark theme.
 // @author       makl11
 // @match        https://www.tecmint.com/*
